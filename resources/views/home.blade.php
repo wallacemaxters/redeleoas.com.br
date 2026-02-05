@@ -3,16 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  @vite(['resources/css/app.css'])
   <style type="text/tailwindcss">
     @theme {
-      /* Paleta de cores oficial Rede Leoas */
-      --color-verde-oliva: #6B7A4A;
-      --color-terracota: #C56A4A;
-      --color-bege: #E8DDCF;
-      --color-preto: #000000;
 
-      --font-sans: 'Inter', ui-sans-serif, system-ui;
     }
   </style>
   <title>Rede Leoas - Site Oficial</title>
@@ -35,7 +29,7 @@
   </nav>
 
   <header class="relative h-[85vh] flex items-center justify-center overflow-hidden bg-preto">
-    <div class="absolute inset-0 opacity-40 bg-(image:--image) bg-cover bg-top" style="background-position-y: 35%; --image: url('/static/img/cover.webp')">
+    <div class="absolute inset-0 opacity-40 bg-(image:--image) bg-cover bg-top" style="background-position-y: 35%; --image: url({{  asset('/static/img/cover.webp') }})">
       {{-- <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=2000" alt="Mulheres Protagonistas" class="w-full h-full object-cover"> --}}
     </div>
     <div class="relative z-10 text-center px-6 max-w-4xl">
@@ -78,7 +72,9 @@
   <section class="bg-preto py-24 text-bege overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
       <div class="w-full md:w-1/3 aspect-[3/4] bg-neutral-800 rounded-3xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition duration-700">
-         <div class="w-full h-full bg-verde-oliva/20 flex items-center justify-center text-bege/20 italic">Shirlley Gomes </div>
+         <div class="w-full h-full bg-verde-oliva/20 flex items-center justify-center text-bege/20 " >
+            <img src="{{  asset('static/img/shirley_gomes.webp') }}" alt="Shirlley Gomes" >
+        </div>
       </div>
       <div class="w-full md:w-2/3">
         <span class="text-terracota font-bold tracking-widest uppercase text-sm">Liderança e Inspiração</span>
