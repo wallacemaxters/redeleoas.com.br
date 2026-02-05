@@ -28,7 +28,7 @@
     </div>
   </nav>
 
-  <header class="relative h-[85vh] flex items-center justify-center overflow-hidden bg-preto">
+  <header class="relative h-[85vh] flex items-center justify-center overflow-hidden bg-black">
     <div class="absolute inset-0 opacity-40 bg-(image:--image) bg-cover bg-top" style="background-position-y: 35%; --image: url({{  asset('/static/img/cover.webp') }})">
       {{-- <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=2000" alt="Mulheres Protagonistas" class="w-full h-full object-cover"> --}}
     </div>
@@ -69,7 +69,7 @@
     </div>
   </section>
 
-  <section class="bg-preto py-24 text-bege overflow-hidden">
+  <section class="bg-black py-24 text-bege overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
       <div class="w-full md:w-1/3 aspect-[3/4] bg-neutral-800 rounded-3xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition duration-700">
          <div class="w-full h-full bg-verde-oliva/20 flex items-center justify-center text-bege/20 " >
