@@ -80,7 +80,7 @@
         <span class="text-terracota font-bold tracking-widest uppercase text-sm">Liderança e Inspiração</span>
         <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">Shirlley Gomes</h2>
         <p class="text-xl text-bege/80 font-light mb-8 leading-relaxed">
-          Presidente da Associação Rede Leoas, liderança feminina e ativista social dedicada ao protagonismo e proteção da mulher.
+          Presidente da Associação Rede Leoas, liderança feminina comprometida com o fortalecimento, o protagonismo e a proteção das mulheres.
         </p>
         <hr class="border-bege/20 mb-8">
         <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
@@ -102,20 +102,7 @@
       <h2 class="text-3xl font-bold mb-4 uppercase tracking-tight">Faça parte da Rede</h2>
       <p class="mb-10 text-gray-600 italic">Cadastre-se para receber informações sobre eventos e novos projetos.</p>
 
-      <form class="space-y-4 text-left">
-        <div>
-          <label class="block text-xs font-bold uppercase mb-2 text-verde-oliva">Nome Completo</label>
-          <input type="text" class="w-full p-4 border border-verde-oliva/20 rounded-md bg-white/50 focus:outline-none focus:border-terracota transition">
-        </div>
-        <div>
-          <label class="block text-xs font-bold uppercase mb-2 text-verde-oliva">WhatsApp</label>
-          <input type="tel" class="w-full p-4 border border-verde-oliva/20 rounded-md bg-white/50 focus:outline-none focus:border-terracota transition">
-        </div>
-        <button type="submit" class="w-full bg-verde-oliva text-bege py-5 font-bold uppercase tracking-widest hover:bg-terracota transition shadow-lg">
-          Enviar Cadastro Seguro
-        </button>
-        <p class="text-[10px] text-center text-gray-400 mt-4">Em conformidade com a LGPD.</p>
-      </form>
+      <livewire:assinante.form />
     </div>
   </section>
 
