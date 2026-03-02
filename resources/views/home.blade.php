@@ -69,6 +69,9 @@
     </div>
   </section>
 
+
+  <x-sections.home.revista />
+
   <section class="bg-black py-24 text-bege overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
       <div class="w-full md:w-1/3 aspect-[3/4] bg-neutral-800 rounded-3xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition duration-700">
@@ -105,6 +108,7 @@
       <livewire:assinante.form />
     </div>
   </section>
+
 
   <footer class="bg-verde-oliva py-16 text-bege border-t border-bege/10">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
