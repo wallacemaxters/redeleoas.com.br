@@ -1,3 +1,6 @@
+@php
+$href = 'https://heyzine.com/flip-book/49a6a67030.html#page/1';
+@endphp
 <section id="revista" class="py-20 bg-verde-oliva text-bege overflow-hidden">
   <div class="max-w-7xl mx-auto px-6">
     <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24">
@@ -33,7 +36,7 @@
           </div>
         </div>
 
-        <a href="https://heyzine.com/flip-book/49a6a67030.html#page/1"
+        <a href="{{ $href }}"
            target="_blank"
            class="inline-block bg-terracota text-white px-10 py-5 rounded-md font-bold text-sm tracking-[0.2em] hover:bg-white hover:text-verde-oliva transition-all shadow-xl hover:-translate-y-1">
           LER EDIÇÃO DIGITAL
