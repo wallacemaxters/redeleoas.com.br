@@ -8,6 +8,6 @@ class HomeSettings extends Settings
 {
     public static function group(): string
     {
-        return 'default';
+        return 'home_settings';
     }
 }
