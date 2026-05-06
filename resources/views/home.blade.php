@@ -4,11 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   @vite(['resources/css/app.css'])
-  <style type="text/tailwindcss">
-    @theme {
-
-    }
-  </style>
+  @livewireScripts
   <title>Rede Leoas - Site Oficial</title>
 </head>
 <body class="bg-bege text-preto font-sans">
@@ -70,6 +66,7 @@
   </section>
 
 
+  <x-sections.home.evento-especial />
   <x-sections.home.revista />
 
   <section class="bg-black py-24 text-bege overflow-hidden">
